@@ -1,0 +1,160 @@
+<?xml version="1.0" ?>
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" profiles="urn:mpeg:dash:profile:isoff-live:2011" minBufferTime="PT2.27S" mediaPresentationDuration="PT30.030S" type="static">
+  <!-- Created with Bento4 mp4-dash.py, VERSION=2.0.0-637 -->
+  <Period>
+    <!-- Video -->
+    <AdaptationSet mimeType="video/mp4" segmentAlignment="true" startWithSAP="1" maxWidth="1920" maxHeight="1080">
+      <Representation id="video-avc1-1" codecs="avc1.640029" width="1920" height="1080" scanType="progressive" frameRate="30000/1001" bandwidth="14256487">
+        <SegmentList timescale="1000" duration="2002">
+          <Initialization sourceURL="std_hstream_08_video_Q1.mp4" range="36-763"/>
+          <SegmentURL media="std_hstream_08_video_Q1.mp4" mediaRange="764-3568449"/>
+          <SegmentURL media="std_hstream_08_video_Q1.mp4" mediaRange="3568450-7322862"/>
+          <SegmentURL media="std_hstream_08_video_Q1.mp4" mediaRange="7322863-11077274"/>
+          <SegmentURL media="std_hstream_08_video_Q1.mp4" mediaRange="11077275-14831679"/>
+          <SegmentURL media="std_hstream_08_video_Q1.mp4" mediaRange="14831680-18586096"/>
+          <SegmentURL media="std_hstream_08_video_Q1.mp4" mediaRange="18586097-22548205"/>
+          <SegmentURL media="std_hstream_08_video_Q1.mp4" mediaRange="22548206-26157873"/>
+          <SegmentURL media="std_hstream_08_video_Q1.mp4" mediaRange="26157874-29903761"/>
+          <SegmentURL media="std_hstream_08_video_Q1.mp4" mediaRange="29903762-33672206"/>
+          <SegmentURL media="std_hstream_08_video_Q1.mp4" mediaRange="33672207-37358357"/>
+          <SegmentURL media="std_hstream_08_video_Q1.mp4" mediaRange="37358358-41460857"/>
+          <SegmentURL media="std_hstream_08_video_Q1.mp4" mediaRange="41460858-45264795"/>
+          <SegmentURL media="std_hstream_08_video_Q1.mp4" mediaRange="45264796-49071687"/>
+          <SegmentURL media="std_hstream_08_video_Q1.mp4" mediaRange="49071688-52825093"/>
+          <SegmentURL media="std_hstream_08_video_Q1.mp4" mediaRange="52825094-56522098"/>
+        </SegmentList>
+      </Representation>
+      <Representation id="video-avc1-2" codecs="avc1.64001F" width="720" height="480" scanType="progressive" frameRate="30000/1001" bandwidth="9506229">
+        <SegmentList timescale="1000" duration="2002">
+          <Initialization sourceURL="std_hstream_08_video_Q2.mp4" range="36-765"/>
+          <SegmentURL media="std_hstream_08_video_Q2.mp4" mediaRange="766-2379699"/>
+          <SegmentURL media="std_hstream_08_video_Q2.mp4" mediaRange="2379700-4882874"/>
+          <SegmentURL media="std_hstream_08_video_Q2.mp4" mediaRange="4882875-7387593"/>
+          <SegmentURL media="std_hstream_08_video_Q2.mp4" mediaRange="7387594-10249640"/>
+          <SegmentURL media="std_hstream_08_video_Q2.mp4" mediaRange="10249641-12677565"/>
+          <SegmentURL media="std_hstream_08_video_Q2.mp4" mediaRange="12677566-15374904"/>
+          <SegmentURL media="std_hstream_08_video_Q2.mp4" mediaRange="15374905-17777661"/>
+          <SegmentURL media="std_hstream_08_video_Q2.mp4" mediaRange="17777662-20368785"/>
+          <SegmentURL media="std_hstream_08_video_Q2.mp4" mediaRange="20368786-22780535"/>
+          <SegmentURL media="std_hstream_08_video_Q2.mp4" mediaRange="22780536-25470431"/>
+          <SegmentURL media="std_hstream_08_video_Q2.mp4" mediaRange="25470432-27924844"/>
+          <SegmentURL media="std_hstream_08_video_Q2.mp4" mediaRange="27924845-30376456"/>
+          <SegmentURL media="std_hstream_08_video_Q2.mp4" mediaRange="30376457-32898269"/>
+          <SegmentURL media="std_hstream_08_video_Q2.mp4" mediaRange="32898270-35416805"/>
+          <SegmentURL media="std_hstream_08_video_Q2.mp4" mediaRange="35416806-37861889"/>
+        </SegmentList>
+      </Representation>
+      <Representation id="video-avc1-3" codecs="avc1.64001E" width="640" height="360" scanType="progressive" frameRate="30000/1001" bandwidth="4755964">
+        <SegmentList timescale="1000" duration="2002">
+          <Initialization sourceURL="std_hstream_08_video_Q3.mp4" range="36-762"/>
+          <SegmentURL media="std_hstream_08_video_Q3.mp4" mediaRange="763-1190942"/>
+          <SegmentURL media="std_hstream_08_video_Q3.mp4" mediaRange="1190943-2442855"/>
+          <SegmentURL media="std_hstream_08_video_Q3.mp4" mediaRange="2442856-3712140"/>
+          <SegmentURL media="std_hstream_08_video_Q3.mp4" mediaRange="3712141-5088201"/>
+          <SegmentURL media="std_hstream_08_video_Q3.mp4" mediaRange="5088202-6319369"/>
+          <SegmentURL media="std_hstream_08_video_Q3.mp4" mediaRange="6319370-7604289"/>
+          <SegmentURL media="std_hstream_08_video_Q3.mp4" mediaRange="7604290-8805767"/>
+          <SegmentURL media="std_hstream_08_video_Q3.mp4" mediaRange="8805768-10135899"/>
+          <SegmentURL media="std_hstream_08_video_Q3.mp4" mediaRange="10135900-11323422"/>
+          <SegmentURL media="std_hstream_08_video_Q3.mp4" mediaRange="11323423-12671677"/>
+          <SegmentURL media="std_hstream_08_video_Q3.mp4" mediaRange="12671678-13908377"/>
+          <SegmentURL media="std_hstream_08_video_Q3.mp4" mediaRange="13908378-15204658"/>
+          <SegmentURL media="std_hstream_08_video_Q3.mp4" mediaRange="15204659-16423440"/>
+          <SegmentURL media="std_hstream_08_video_Q3.mp4" mediaRange="16423441-17682941"/>
+          <SegmentURL media="std_hstream_08_video_Q3.mp4" mediaRange="17682942-18895379"/>
+        </SegmentList>
+      </Representation>
+    </AdaptationSet>
+    <!-- Audio -->
+    <AdaptationSet mimeType="audio/mp4" startWithSAP="1" segmentAlignment="true">
+      <Representation id="audio-und-mp4a-1" codecs="mp4a.40.2" bandwidth="194908" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+        <SegmentList timescale="1000" duration="2002">
+          <Initialization sourceURL="std_hstream_08_audio_Q1.mp4" range="32-659"/>
+          <SegmentURL media="std_hstream_08_audio_Q1.mp4" mediaRange="660-49516"/>
+          <SegmentURL media="std_hstream_08_audio_Q1.mp4" mediaRange="49517-97745"/>
+          <SegmentURL media="std_hstream_08_audio_Q1.mp4" mediaRange="97746-146431"/>
+          <SegmentURL media="std_hstream_08_audio_Q1.mp4" mediaRange="146432-195019"/>
+          <SegmentURL media="std_hstream_08_audio_Q1.mp4" mediaRange="195020-243512"/>
+          <SegmentURL media="std_hstream_08_audio_Q1.mp4" mediaRange="243513-291612"/>
+          <SegmentURL media="std_hstream_08_audio_Q1.mp4" mediaRange="291613-340302"/>
+          <SegmentURL media="std_hstream_08_audio_Q1.mp4" mediaRange="340303-388819"/>
+          <SegmentURL media="std_hstream_08_audio_Q1.mp4" mediaRange="388820-437304"/>
+          <SegmentURL media="std_hstream_08_audio_Q1.mp4" mediaRange="437305-485336"/>
+          <SegmentURL media="std_hstream_08_audio_Q1.mp4" mediaRange="485337-534070"/>
+          <SegmentURL media="std_hstream_08_audio_Q1.mp4" mediaRange="534071-582774"/>
+          <SegmentURL media="std_hstream_08_audio_Q1.mp4" mediaRange="582775-631406"/>
+          <SegmentURL media="std_hstream_08_audio_Q1.mp4" mediaRange="631407-679473"/>
+          <SegmentURL media="std_hstream_08_audio_Q1.mp4" mediaRange="679474-727777"/>
+          <SegmentURL media="std_hstream_08_audio_Q1.mp4" mediaRange="727778-729600"/>
+        </SegmentList>
+      </Representation>
+      <Representation id="audio-und-mp4a-2" codecs="mp4a.40.5" bandwidth="98202" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+        <SegmentList timescale="1000" duration="2002">
+          <Initialization sourceURL="std_hstream_08_audio_Q2.mp4" range="32-662"/>
+          <SegmentURL media="std_hstream_08_audio_Q2.mp4" mediaRange="663-25278"/>
+          <SegmentURL media="std_hstream_08_audio_Q2.mp4" mediaRange="25279-49767"/>
+          <SegmentURL media="std_hstream_08_audio_Q2.mp4" mediaRange="49768-74177"/>
+          <SegmentURL media="std_hstream_08_audio_Q2.mp4" mediaRange="74178-97832"/>
+          <SegmentURL media="std_hstream_08_audio_Q2.mp4" mediaRange="97833-122379"/>
+          <SegmentURL media="std_hstream_08_audio_Q2.mp4" mediaRange="122380-146740"/>
+          <SegmentURL media="std_hstream_08_audio_Q2.mp4" mediaRange="146741-170966"/>
+          <SegmentURL media="std_hstream_08_audio_Q2.mp4" mediaRange="170967-195488"/>
+          <SegmentURL media="std_hstream_08_audio_Q2.mp4" mediaRange="195489-219713"/>
+          <SegmentURL media="std_hstream_08_audio_Q2.mp4" mediaRange="219714-244025"/>
+          <SegmentURL media="std_hstream_08_audio_Q2.mp4" mediaRange="244026-268395"/>
+          <SegmentURL media="std_hstream_08_audio_Q2.mp4" mediaRange="268396-292326"/>
+          <SegmentURL media="std_hstream_08_audio_Q2.mp4" mediaRange="292327-316684"/>
+          <SegmentURL media="std_hstream_08_audio_Q2.mp4" mediaRange="316685-341052"/>
+          <SegmentURL media="std_hstream_08_audio_Q2.mp4" mediaRange="341053-365358"/>
+          <SegmentURL media="std_hstream_08_audio_Q2.mp4" mediaRange="365359-366855"/>
+        </SegmentList>
+      </Representation>
+      <Representation id="audio-und-mp4a-3" codecs="mp4a.40.5" bandwidth="50474" audioSamplingRate="24000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+        <SegmentList timescale="1000" duration="2002">
+          <Initialization sourceURL="std_hstream_08_audio_Q3.mp4" range="32-662"/>
+          <SegmentURL media="std_hstream_08_audio_Q3.mp4" mediaRange="663-13045"/>
+          <SegmentURL media="std_hstream_08_audio_Q3.mp4" mediaRange="13046-25578"/>
+          <SegmentURL media="std_hstream_08_audio_Q3.mp4" mediaRange="25579-37456"/>
+          <SegmentURL media="std_hstream_08_audio_Q3.mp4" mediaRange="37457-49966"/>
+          <SegmentURL media="std_hstream_08_audio_Q3.mp4" mediaRange="49967-61967"/>
+          <SegmentURL media="std_hstream_08_audio_Q3.mp4" mediaRange="61968-74573"/>
+          <SegmentURL media="std_hstream_08_audio_Q3.mp4" mediaRange="74574-86394"/>
+          <SegmentURL media="std_hstream_08_audio_Q3.mp4" mediaRange="86395-98431"/>
+          <SegmentURL media="std_hstream_08_audio_Q3.mp4" mediaRange="98432-110899"/>
+          <SegmentURL media="std_hstream_08_audio_Q3.mp4" mediaRange="110900-122941"/>
+          <SegmentURL media="std_hstream_08_audio_Q3.mp4" mediaRange="122942-135256"/>
+          <SegmentURL media="std_hstream_08_audio_Q3.mp4" mediaRange="135257-147370"/>
+          <SegmentURL media="std_hstream_08_audio_Q3.mp4" mediaRange="147371-159856"/>
+          <SegmentURL media="std_hstream_08_audio_Q3.mp4" mediaRange="159857-171856"/>
+          <SegmentURL media="std_hstream_08_audio_Q3.mp4" mediaRange="171857-184240"/>
+          <SegmentURL media="std_hstream_08_audio_Q3.mp4" mediaRange="184241-185739"/>
+        </SegmentList>
+      </Representation>
+    </AdaptationSet>
+    <!-- Subtitles (Encapsulated) -->
+    <AdaptationSet mimeType="application/mp4" startWithSAP="1" lang="en">
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"/>
+      <Representation id="subtitles-en-stpp" codecs="stpp" bandwidth="23135">
+        <SegmentList timescale="1000" duration="2273">
+          <Initialization sourceURL="std_hstream_08_subtitle.mp4" range="24-583"/>
+          <SegmentURL media="std_hstream_08_subtitle.mp4" mediaRange="584-2666"/>
+          <SegmentURL media="std_hstream_08_subtitle.mp4" mediaRange="2667-4753"/>
+          <SegmentURL media="std_hstream_08_subtitle.mp4" mediaRange="4754-6844"/>
+          <SegmentURL media="std_hstream_08_subtitle.mp4" mediaRange="6845-8932"/>
+          <SegmentURL media="std_hstream_08_subtitle.mp4" mediaRange="8933-11028"/>
+          <SegmentURL media="std_hstream_08_subtitle.mp4" mediaRange="11029-13117"/>
+          <SegmentURL media="std_hstream_08_subtitle.mp4" mediaRange="13118-15236"/>
+          <SegmentURL media="std_hstream_08_subtitle.mp4" mediaRange="15237-17384"/>
+          <SegmentURL media="std_hstream_08_subtitle.mp4" mediaRange="17385-29384"/>
+          <SegmentURL media="std_hstream_08_subtitle.mp4" mediaRange="29385-37442"/>
+          <SegmentURL media="std_hstream_08_subtitle.mp4" mediaRange="37443-39597"/>
+          <SegmentURL media="std_hstream_08_subtitle.mp4" mediaRange="39598-41785"/>
+          <SegmentURL media="std_hstream_08_subtitle.mp4" mediaRange="41786-44306"/>
+        </SegmentList>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>
